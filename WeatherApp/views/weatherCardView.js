@@ -1,4 +1,4 @@
-import { html, render } from "../node_modules/lit-html/";
+import { html, render } from "../node_modules/lit-html/lit-html.js";
 
 const weatherCardTemplate = () => html`
   <div id="card" class="container">
