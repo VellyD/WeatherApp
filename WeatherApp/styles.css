@@ -5,6 +5,7 @@ body {
 
 #contrainer {
     min-height: 100%;
+ 
 }
 
 header {
@@ -12,6 +13,26 @@ header {
     color: coral;
 
 }
+
+#img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 30%;
+}
+
+#root{
+    margin-top: 30px;
+}
+
+
 
 footer {
     background-color: coral;
