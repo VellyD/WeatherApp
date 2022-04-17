@@ -17,7 +17,8 @@
     "url": "https://github.com/VellyD/WeatherApp/issues"
   },
   "homepage": "https://github.com/VellyD/WeatherApp#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "lit-html": "^2.2.2"
   }
 }
