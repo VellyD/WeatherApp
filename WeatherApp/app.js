@@ -1,1 +1,3 @@
-console.log('connected');
+import {renderCard} from "./views/weatherCardView.js"
+
+renderCard();
