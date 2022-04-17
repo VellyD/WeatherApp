@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/VellyD/WeatherApp/issues"
   },
-  "homepage": "https://github.com/VellyD/WeatherApp#readme"
+  "homepage": "https://github.com/VellyD/WeatherApp#readme",
+  "dependencies": {
+    "lit-html": "^2.2.2"
+  }
 }
