@@ -25,9 +25,14 @@
       <h1>Hello Weather</h1>
     </header>
 
-    <div id="root">
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text" id="addon-wrapping">Search for a City:</span>
+      <input type="text" class="form-control" placeholder="ex. London" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+
+    <div class="container-fluid">
       <div class="card mb-3">
-        <img src="https://assets.thehansindia.com/h-upload/2021/08/17/1102463-pain.webp" class="card-img-top" alt="...">
+        <img src="https://assets.thehansindia.com/h-upload/2021/08/17/1102463-pain.webp" class="img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -39,6 +44,17 @@
 
     </div>
 
-    <footer>Created by Velly &reg;</footer>
+    <!-- Spinner HTML -->
+    <!-- <div class="d-flex align-items-center">
+      <strong>Loading...</strong>
+      <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+    </div> -->
+
+
+    <footer>
+      <div class="container-fluid">
+        <h6>Created by Velly &reg;</h6>
+      </div>
+    </footer>
   </body>
 </html>

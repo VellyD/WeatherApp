@@ -1,0 +1,14 @@
+
+body{
+    margin: 25px 50px 75px 100px;
+}
+
+.card mb-3{
+    border-radius: 15px;
+}
+
+
+
+footer {
+    text-align: center;
+}
