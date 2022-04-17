@@ -21,39 +21,52 @@
     <title>Check your clothes</title>
   </head>
   <body>
-    <header>
+    <header class="text-center">
       <h1>Hello Weather</h1>
     </header>
 
-    <div class="input-group flex-nowrap">
-      <span class="input-group-text" id="addon-wrapping">Search for a City:</span>
-      <input type="text" class="form-control" placeholder="ex. London" aria-label="Username" aria-describedby="addon-wrapping">
-    </div>
+    <div id="contrainer" class="text-center">
 
-    <div class="container-fluid">
-      <div class="card mb-3">
-        <img src="https://assets.thehansindia.com/h-upload/2021/08/17/1102463-pain.webp" class="img-fluid" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
+      <div id="search" class="container input-group flex-nowrap">
+        <span id="addon-wrapping" class="input-group-text" >
+          Search for a City:
+        </span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="ex. London"
+          aria-label="City"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+
+      <div id="root" class="container flex-nowrap">
+  
+        <div id="card" class="container">
+          <div class="card mb-3">
+            <img
+              src="https://assets.thehansindia.com/h-upload/2021/08/17/1102463-pain.webp"
+              class="img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Desctition</p>
+            </div>
+          </div>
         </div>
+      </div>
 
-
+      <!-- Spinner HTML -->
+      <!-- <div class="d-flex align-items-center">
+        <strong>Loading...</strong>
+        <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+      </div> -->
     </div>
-
-    <!-- Spinner HTML -->
-    <!-- <div class="d-flex align-items-center">
-      <strong>Loading...</strong>
-      <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
-    </div> -->
-
 
     <footer>
-      <div class="container-fluid">
-        <h6>Created by Velly &reg;</h6>
+      <div class="container text-center">
+        <p>Created by Velly &reg;</p>
       </div>
     </footer>
   </body>

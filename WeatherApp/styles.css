@@ -1,14 +1,20 @@
-
-body{
-    margin: 25px 50px 75px 100px;
+html,
+body {
+    height: 100%;
 }
 
-.card mb-3{
-    border-radius: 15px;
+#contrainer {
+    min-height: 90%;
 }
 
+header {
 
+    color: coral;
+
+}
 
 footer {
-    text-align: center;
+    background-color: coral;
+    color: aliceblue;
+    position: relative
 }
